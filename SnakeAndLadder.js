@@ -4,7 +4,7 @@
 	let START = 0;
 		
 	let pos = 0, pos1 = 0, cntr1 = 0, cntr2 = 0, cntr3 = 0, cntr4 = 0, c1 = 0, c2 = 0, c3 = 0, c4 = 0;
-		
+
       console.log("Starting position of player is: " + START);
       while(pos < 100 && pos1 < 100){
 		let con = 1;
@@ -103,15 +103,15 @@ b:		while(con1 == 1 && pos1 < 100){
 			}
 		}
 
-      console.log();
+        console.log();
 		console.log("-------------------");
       if (pos == 100){
       console.log("Player1 ROLLED DICE "+ cntr1 +" time and got SNAKE "+ cntr3 +" times and got LADDER "+ cntr2 +" times and got NO PLAY "+ cntr4 +" times to win the game");
       console.log("    PLAYER1 WON");
 		}
 		else{
-      console.log("Player2 ROLLED DICE "+ c1 +" time and got SNAKE "+ c3 +" times and got LADDER "+ c2 +" times and got NO PLAY "+c4+" times to win the game");
-		console.log("    PLAYER2 WON");
+        console.log("Player2 ROLLED DICE "+ c1 +" time and got SNAKE "+ c3 +" times and got LADDER "+ c2 +" times and got NO PLAY "+c4+" times to win the game");
+	    console.log("    PLAYER2 WON");
 		}
       console.log("-------------------");
 
